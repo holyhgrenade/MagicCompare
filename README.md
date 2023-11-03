@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Build and tests](#build)
+  - [Build and test](#build and test)
 - [Usage](#usage)
 - [License](#license)
 
@@ -16,6 +16,8 @@ When working with mathematics, we often use chained comparisons, such as `a < b 
 In C++, you might be tempted to use `a < b < c`, but it doesn't work as expected. Instead, it first evaluates `a < b`, which results in a bool value, and then converts it to 0 or 1. This leads to incorrect behavior, where `3 > 4 < 5` would be `false < 5`, resulting in `0 < 5`, which evaluates to `true`, rather than the expected `false`.
 
 To address this issue, we've created a C++ solution called MagicCompare, which leverages operator overloading to enable correctly working chained comparisons.
+
+Idea comes from: https://www.codewars.com/kata/59ad0147485a4d9d3f0000a9
 
 ## Getting Started
 
@@ -45,7 +47,7 @@ To address this issue, we've created a C++ solution called MagicCompare, which l
 
 4. Execute tests
 
-   ```
+   ```bash
    make test
 
 ### Usage

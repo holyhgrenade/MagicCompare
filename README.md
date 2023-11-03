@@ -5,11 +5,8 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Build and tests](#build)
 - [Usage](#usage)
-- [Example](#example)
-- [Tests](#tests)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -26,10 +23,36 @@ To address this issue, we've created a C++ solution called MagicCompare, which l
 
 - A C++ compiler with C++11 support.
 
-### Installation
+### Build and test
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/holyhgrenade/your-repo.git
+   git clone https://github.com/holyhgrenade/MagicCompare.git
+   
+2. Navigate to the project directory:
 
+   ```bash
+   cd MagicCompare
+
+3. Build the project
+
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+4. Execute tests
+
+   ```
+   make test
+
+### Usage
+
+To use MagicCompare, you'll need to include the MagicCompare.h header in your C++ code. The header-only class is located in the src folder. You can then create objects of your existing types and use the MagicCompare class to perform chained comparisons in a more intuitive manner.
+For examples please check the tests.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

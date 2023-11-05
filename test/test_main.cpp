@@ -207,8 +207,8 @@ void testMathFunctions()
   using Float = MagicCompare<double>;
   Float num(1.56); // approximately pi/2 but below
   assert(1 > sin(num) > 0.9);
-  assert(sin(num) < exp(num) < 9);
-  assert(sin(num) > cos(num) > 0);
+  assert(num < exp(num) < 9);
+  assert(num > cos(num) > 0);
 }
 
 void mainTest(int numOfTest) {

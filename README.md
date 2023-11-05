@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Build and test](#build and test)
+  - [Build](#build)
 - [Usage](#usage)
 - [License](#license)
 
@@ -25,7 +25,7 @@ Idea comes from: https://www.codewars.com/kata/59ad0147485a4d9d3f0000a9
 
 - A C++ compiler with C++11 support.
 
-### Build and test
+### Build
 
 1. Clone the repository to your local machine:
 
